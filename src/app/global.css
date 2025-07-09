@@ -1,0 +1,116 @@
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-color: yellow;
+  scroll-behavior: smooth;
+}
+
+
+body {
+    min-height: 100vh;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", serif;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1;
+}
+
+
+.animate__animated.animate__fadeIn {
+  --animate-duration: 2s;
+  --animate-delay: 0s;
+}
+
+
+main {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 0 0;
+}
+
+.header {
+    background-image: url("/images/the-manor-web-banner.png"); 
+    height: 300px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.logo {
+  padding: 1px;
+  position: relative;
+  text-align: center;
+  height: 300px;
+}
+
+.social1 {
+  margin: 10px;
+  text-align: center;
+}
+
+.icon {
+  padding: 5px;
+}
+
+.icon:hover {
+  -webkit-animation: pulse 1s;
+  animation: pulse 1s;
+}
+
+.iframe-container {
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-rows: 1fr, 400px;
+  grid-gap: 0.5rem;
+  padding: 10;
+}
+
+.spotify-player {
+  padding: 0;
+  margin: 0;
+  /* grid-column: span 2; */
+}
+
+.twitter-feed {
+  padding: 0 10 0 10;
+  /* grid-column: span 1; */
+}
+
+footer {
+  position: relative;
+  text-align: center;
+  height: 300px;
+  bottom: 0;
+  width: 100%;
+  /* background: linear-gradient(to top, #404040 30%, #000000 100%); */
+  background-image: url("/images/the-manor-web-footer.png");
+  margin: 20 0 0 0;
+}
+
+.social2 {
+  margin: 0 0 0 0;
+  padding: 50px;
+  text-align: center;
+}
+
+.twitter-follow-button {
+  padding: 2;
+  margin: 0;
+}
+
+/* @media(max-width:480px) {
+  footer {
+    min-height: 375px;
+  }
+  body {
+    padding-bottom: 400px;
+  }
+} */
